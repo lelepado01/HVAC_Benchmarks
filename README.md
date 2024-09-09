@@ -8,6 +8,13 @@ The dataset consists in 10 samples * number of nodes * number of gpus per node, 
 Experiments are run for 3, 5 and 10 epochs, yielding total training times of around 5 minutes (for 3 epochs) and 25 (for 10 epochs). 
 Wallclock time is kept at 30 for all runs. 
 
+### Second Training (for epoch time comparison)
+
+Same model has been trained on 2 nodes (16 GPUs). 
+The dataset consists in 100 samples * number of nodes * number of gpus per node, so each process passes through 100 samples.
+
+This modality was used only for checking time separation between first and other epochs, to see HVAC improvement. 
+
 ### Logged times
 
 I saved times for: 
