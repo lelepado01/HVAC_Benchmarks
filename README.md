@@ -8,6 +8,8 @@ The dataset consists in 10 samples * number of nodes * number of gpus per node, 
 Experiments are run for 3, 5 and 10 epochs, yielding total training times of around 5 minutes (for 3 epochs) and 25 (for 10 epochs). 
 Wallclock time is kept at 30 for all runs. 
 
+Each tensor is a 3D grid 128x128x6, so size is ~ 0.375 MB
+
 ### Second Training (for epoch time comparison)
 
 Same model has been trained on 2 nodes (16 GPUs). 
